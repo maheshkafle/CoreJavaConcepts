@@ -15,8 +15,10 @@ public class DataTypes {
             double n = 100; // interpreted as 100.0
             System.out.println(n);
 
-            //char holds single character
+            // 3. char holds single character
             char a = 's';
+
+            // 4. boolean
             boolean a1 = true;
             boolean b1 = false;
             System.out.println(b1);
