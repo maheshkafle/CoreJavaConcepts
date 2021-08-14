@@ -1,7 +1,7 @@
 public class DataTypes {
 
         public static void main(String[] args) {
-            //
+            // Interview Tips: Primitive Data Types: int, double, char and boolean but String is not a datatype but a class
             // 1. int
             int i = 1;
             i = 2;
