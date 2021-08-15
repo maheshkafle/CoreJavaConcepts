@@ -5,7 +5,7 @@ public class HashTableConcept {
     public static void main(String[] args) {
 
         // Interview Question: WHat are the difference between ArrayList and HashTable
-        // This can store any datatype key and value pair
+        // This kind of HashTable can store any datatype key and value pair
         Hashtable h1 = new Hashtable();
 
         h1.put("A", "Small");
