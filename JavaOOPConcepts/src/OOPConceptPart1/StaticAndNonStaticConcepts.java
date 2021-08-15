@@ -1,3 +1,5 @@
+package OOPConceptPart1;
+
 public class StaticAndNonStaticConcepts {
 
     int age = 26; // non static global var

@@ -1,3 +1,5 @@
+package OOPConceptPart1;
+
 public class Bird {
 
     // Class variables

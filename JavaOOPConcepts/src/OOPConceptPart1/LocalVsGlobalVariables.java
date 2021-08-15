@@ -1,3 +1,5 @@
+package OOPConceptPart1;
+
 public class LocalVsGlobalVariables {
 
     // Global Variables - Class Variables
