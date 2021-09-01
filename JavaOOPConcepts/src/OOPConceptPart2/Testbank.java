@@ -11,9 +11,11 @@ public class Testbank {
         sc.transferMoney();
         sc.educationLoan();
         sc.carLoan();
+        sc.mutualFund();
 
         // Dynamic Polymorphism:?
         // Child class object can be referred by parent interface reference var.
+        System.out.println("******using parent interface object reference *******");
         USBank ub = new StandardCharteredBank();
         ub.credit();
         ub.debit();
