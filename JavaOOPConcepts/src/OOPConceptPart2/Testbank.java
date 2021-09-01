@@ -3,7 +3,8 @@ package OOPConceptPart2;
 public class Testbank {
 
     public static void main(String[] args) {
-
+        // Interview Question: interface variable value is final in nature i.e we cannot change interface variable value USBank.min_bal = 200; is wrong
+        System.out.println(USBank.min_bal);
         StandardCharteredBank sc = new StandardCharteredBank();
         sc.credit();
         sc.debit();
