@@ -37,13 +37,10 @@ public class Bird {
         // Shifting of object reference
         parrot = sparrow; // parrot references to sparrow after execution
         sparrow = pigeon; // sparrow references to pigeon after execution
-        pigeon = parrot;  // Interview Concept: pigeon references to parrot! but now parrot is referencing to sparrow so pigeon will also reference to sparrow.
+        pigeon = parrot;  // Imp Line to understand!!! Interview Concept: pigeon references to parrot! but now parrot is referencing to sparrow so pigeon will also reference to sparrow.
 
         System.out.println("After shifting class variables values");
-        parrot.color = "suga rang";
         // Top Interview Question
-        System.out.println(parrot.color); // output: suga rang
-        pigeon.color = "parewa ko rang";
-        System.out.println(parrot.color); // output: parewa ko rang
+        System.out.println(pigeon.color); // output: sparrow.color
     }
 }
