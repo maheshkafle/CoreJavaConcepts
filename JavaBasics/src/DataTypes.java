@@ -17,6 +17,7 @@ public class DataTypes {
 
             // 3. char holds single character
             char a = 's';
+            System.out.println(a);
 
             // 4. boolean
             boolean a1 = true;
