@@ -13,9 +13,9 @@ public class TwoDimArray {
         x[0][2] = "C";
 
         // second row
-        x[1][0] = "E";
-        x[1][1] = "F";
-        x[1][2] = "G";
+        x[1][0] = "D";
+        x[1][1] = "E";
+        x[1][2] = "F";
 
         // print all values in 2D Array
         for(int row=0; row<x.length; row++){
