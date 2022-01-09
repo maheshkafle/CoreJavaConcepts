@@ -11,7 +11,7 @@ public class LocalVsGlobalVariables {
         int i = 10; // local variables - i is local variable for main() i.e scope is available only within this method
         System.out.println(i);
 
-        // As soon as new object is created then a copy of static method is passed to the new object
+        // As soon as new object is created then a copy of non static method and Global variables is passed to the new object
         LocalVsGlobalVariables obj = new LocalVsGlobalVariables();
         System.out.println(obj.name);
         System.out.println(obj.age);
