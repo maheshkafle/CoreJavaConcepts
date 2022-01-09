@@ -8,8 +8,8 @@ public class Bird {
 
     public static void main(String[] args) {
 
-        // new Bird() is class object,  new keyword is used to create object
-        // parrot, pigeon are object reference variables
+        // new Bird() this is Object of Bird Class, i.e  new keyword is used to create object
+        // parrot, pigeon and sparrow are Object reference variables
 
         Bird parrot = new Bird();
         Bird pigeon = new Bird();
