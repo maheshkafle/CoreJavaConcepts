@@ -7,8 +7,8 @@ public class ArrayConcept {
         // upper bound/index: size of array - 1
 
 
-        // 1. int array
-        int i[] = new int[4];
+        // 1. int array variable
+        int i[] = new int[4]; // int i = 9; Integer Variable
         i[0] = 1;
         i[1] = 2;
         i[2] = 3;
@@ -36,8 +36,8 @@ public class ArrayConcept {
         // e.g  //here i[4] doesn't exist so we get ArrayIndexOutOfBoundsException if we run below program in line no 27
         // System.out.println(i[4]);
 
-        // 2. double array
-        double a[] = new double[4];
+        // 2. double array variable
+        double a[] = new double[4];  // double variable; double a = 12.00;
         a[0] = 7.44;
         a[1] = 8.11;
         a[2] = 2.33;
@@ -49,8 +49,8 @@ public class ArrayConcept {
 
         System.out.println("*********");
 
-        // 3. char array
-        char c[] = new char[4];
+        // 3. char array variable
+        char c[] = new char[4]; // char variable; char c = '3';
         c[0] = 'c';
         c[1] = 'd';
         c[2] = '3';
@@ -62,8 +62,8 @@ public class ArrayConcept {
 
         System.out.println("*********");
 
-        // 4. String array
-        String e[] = new String[2];
+        // 4. String array variable
+        String e[] = new String[2]; // String variable; String e = "StringVar";
         e[0] = "Hello";
         e[1] = "12345";
 
@@ -73,8 +73,8 @@ public class ArrayConcept {
 
         System.out.println("*********");
 
-        // 5. boolean array
-        boolean g[] = new boolean[2];
+        // 5. boolean array variable
+        boolean g[] = new boolean[2]; //Boolean variable; boolean g = true;
         g[0] = true;
         g[1] = false;
 
