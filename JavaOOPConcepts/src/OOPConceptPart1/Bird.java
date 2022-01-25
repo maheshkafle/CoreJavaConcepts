@@ -8,6 +8,9 @@ public class Bird {
 
     public static void main(String[] args) {
 
+        // Interview Question: What is Class?
+        // Class is a real world entity which has its properties which is defined in the form of methods and variables.
+        //For If Bird is a class then it has its own properties like Name, Color, canFly etc
         // new Bird() this is Object of Bird Class, i.e  new keyword is used to create object
         // parrot, pigeon and sparrow are Object reference variables
 
