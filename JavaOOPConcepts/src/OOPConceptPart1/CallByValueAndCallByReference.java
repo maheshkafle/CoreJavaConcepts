@@ -9,19 +9,31 @@ public class CallByValueAndCallByReference {
         CallByValueAndCallByReference obj = new CallByValueAndCallByReference();
         int a = 5;
         int b = 5;
-        obj.sum(a, b); // Interview Question: call by value or pass by value. Note: Here the value of a and b is unchanged
+        /*
+            Interview Question: call by value or pass by value.
+            Note: Here the value of 'a' variable(actual parameter) is copied into 'a'(formal parameters)
+        */
+        obj.sum(a, b);
 
         obj.p = 20;
         obj.q = 30;
 
         // Interview Question: Can we implement callbyreference in java: Yes (using object reference)
-        System.out.println("Before callbyreference-> p: "+obj.p);
-        System.out.println("Before callbyreference-> q: "+obj.q);
+        System.out.println("Before swap");
+        System.out.println("p: "+obj.p);
+        System.out.println("q: "+obj.q);
 
+        /*
+            Interview Question: call by reference or pass by reference.
+            Note: In call by reference, the memory allocation is similar for both formal and actual parameters.
+            All operations in function are performed on the value stored at the address of actual params,
+            and the value gets stored at same address.
+        */
         obj.swap(obj); // we pass object reference
 
-        System.out.println("After callbyreference-> p: "+obj.p);
-        System.out.println("After callbyreference-> q: "+obj.q);
+        System.out.println("After swap");
+        System.out.println("p: "+obj.p);
+        System.out.println("q: "+obj.q);
     }
 
     public int sum(int a, int b){ // a:5, b: 5
@@ -31,7 +43,7 @@ public class CallByValueAndCallByReference {
         return c;
     }
 
-    // call by reference
+    // call by reference: If the original parameter
     public void swap(CallByValueAndCallByReference obj){
         int temp;
         temp = obj.p; // temp: 20
