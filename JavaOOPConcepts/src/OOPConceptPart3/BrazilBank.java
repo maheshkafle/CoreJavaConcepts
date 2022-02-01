@@ -1,6 +1,7 @@
-package OOPConceptPart2;
+package OOPConceptPart3;
 
 public interface BrazilBank {
 
     public void mutualFund();
+
 }
